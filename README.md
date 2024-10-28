@@ -1,5 +1,4 @@
-// GitHub README - Senay Asikoglu
-
+```javascript
 const senayAsikoglu = { 
   personalInfo: { 
     name: "Senay", 
@@ -39,10 +38,7 @@ console.log(`
 
 console.log(`
   I have a passion for gaining new insights. Right now, I am learning ${senayAsikoglu.currentlyLearning}.
-`);
-
-
-
+`); 
 
 
 
