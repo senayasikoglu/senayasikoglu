@@ -1,3 +1,5 @@
+// GitHub README - Senay Asikoglu
+
 const senayAsikoglu = {
   personalInfo: {
     name: "Senay",
@@ -10,33 +12,33 @@ const senayAsikoglu = {
     backend: ["NodeJS", "Express"],
     databases: ["MongoDB"],
     frameworks: ["React"],
-    tools: ["Git", "GitHub", "VS Code", "npm"]
+    tools: ["Git", "GitHub", "VS Code", "npm"],
   },
   
   currentlyLearning: "TypeScript",
   
   introduceYourself: () => {
     console.log(`
-      Hello! I'm ${senayAsikoglu.personalInfo.name},a ${senayAsikoglu.personalInfo.role}.
+      Hello! I'm ${senayAsikoglu.personalInfo.name}, a ${senayAsikoglu.personalInfo.role}.
       If you want to know a bit more about me, visit my LinkedIn profile: ${senayAsikoglu.personalInfo.linkedIn}
     `);
   },
 };
 
-cristinaRamos.introduceYourself();
+senayAsikoglu.introduceYourself();
 
 console.log(`
   I have experience in a variety of technologies, including:
 
-  Frontend: ${cristinaRamos.skills.frontend.join(', ')}
-  Backend: ${cristinaRamos.skills.backend.join(', ')}
-  Databases: ${cristinaRamos.skills.databases.join(', ')}
-  Frameworks: ${cristinaRamos.skills.frameworks.join(', ')}
-  Tools: ${cristinaRamos.skills.tools.join(', ')}
+  Frontend: ${senayAsikoglu.skills.frontend.join(', ')}
+  Backend: ${senayAsikoglu.skills.backend.join(', ')}
+  Databases: ${senayAsikoglu.skills.databases.join(', ')}
+  Frameworks: ${senayAsikoglu.skills.frameworks.join(', ')}
+  Tools: ${senayAsikoglu.skills.tools.join(', ')}
 `);
 
 console.log(`
-  I have a passion for gaining new insights, rigth know I am learning ${cristinaRamos.currentlyLearning}.
+  I have a passion for gaining new insights. Right now, I am learning ${senayAsikoglu.currentlyLearning}.
 `);
 
 
