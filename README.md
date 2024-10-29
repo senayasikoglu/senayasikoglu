@@ -1,3 +1,10 @@
+                                              Hello, I'm Şenay 👋
+                                             Full Stack Developer
+
+
+
+
+
 ```javascript
 const senayAsikoglu = { 
   personalInfo: { 
